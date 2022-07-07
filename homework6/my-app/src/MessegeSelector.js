@@ -1,0 +1,1 @@
+export const messegeSelector=state => state.massege.masseges
