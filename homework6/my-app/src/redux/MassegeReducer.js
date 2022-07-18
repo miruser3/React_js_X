@@ -3,8 +3,8 @@ const initialState = {
     masseges: [
         { id: 1, chatId: 1, massages: 'firstmassege' },
         { id: 2, chatId: 2, massages: 'secont chat my massege' },
-        { id: 3, chatId: 3, massages: 'firstmassege' },
-        { id: 4, chatId: 4, massages: 'secont chat my massege' }
+        { id: 3, chatId: 3, massages: 'thirtymassege' },
+        { id: 4, chatId: 4, massages: 'fifty chat my massege' }
     ]
 
 };

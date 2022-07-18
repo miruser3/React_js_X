@@ -35,7 +35,7 @@ function App() {
         <Route path='/Home' exact element={<Home />} />
         <Route path='/profile' element={<Profile />} />
         <Route path='/' element={<Chats />} />
-        <Route path='/ControlPanel/:id' element={<ControlPanel />} />
+        <Route path='/product/:id' element={<ControlPanel />} />
         <Route path='*' element={<Notfound />} />
       </Routes>
      </div>
