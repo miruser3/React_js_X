@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+.navlink{
+  width: '100%';
+   max-width: '360';
+   font-size: '35px';
+   display: 'flex';
+   justify-Content: 'space-between';
+
+}
