@@ -35,5 +35,3 @@ root.render(
   </Provider>
 
 );
-
-
