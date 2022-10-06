@@ -1,5 +1,5 @@
-import { auth } from "../firebase/Firebase";
-import * as types from "./actionTape";
+import { auth } from "../FireBase";
+import * as types from "./ActionType";
 
 
 export const registerStart = () => ({
@@ -49,7 +49,7 @@ export const registerInitiate = (email, password, displayName) => {
                 user.updateProfile({
                     displayName
                 })
-                dispatch(registerSuccess(user));
+                dispatch(registerSuccess(user))
             })
             .catch((err) => dispatch(registerError(err.message)))
     }

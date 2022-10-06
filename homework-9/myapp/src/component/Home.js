@@ -10,7 +10,6 @@ const Home = () => {
     const navigate = useNavigate();
 
 
-
     const handleAuth = () => {
         if(user) {
             dispatch(logoutInitiate())

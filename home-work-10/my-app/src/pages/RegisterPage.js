@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { currentUserSelector } from '../reducer/Selectors';
-import { registerInitiate } from '../redux/action';
+import { currentUserSelector } from '../reducers/Selectors';
+import { registerInitiate } from '../redux/Action';
 
-const Register = () => {
+const RegisterPage = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [passwordConfirm, setPasswordConfirm] = useState('');
@@ -30,7 +30,7 @@ const Register = () => {
     return (
         <div>
             <header style={{ width: '100%', height: 70, background: 'red' }}>
-                <NavLink style={{ fontSize: 30, textDecoration: 'none', color: 'white' }} to={'/login'}>
+                <NavLink style={{ fontSize: 30, textDecoration: 'none', color: 'white' }} to={'/LoginPage'}>
                     Войти
                 </NavLink>
             </header>
@@ -45,6 +45,6 @@ const Register = () => {
 
         </div>
     );
-}; 
+};
 
-export default Register;
+export default RegisterPage;
